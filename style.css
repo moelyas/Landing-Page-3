@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy-regular;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#nav-part1{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+#nav h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+ 
+#content{
+    margin-top: 60px;
+    padding: 40px 65px;
+}
+
+#content h1{
+    font-size: 160px ;
+    font-weight: 500;
+    line-height: 150px;
+    letter-spacing: -9px ;
+    word-spacing: 12px  ;
+}
+
+#content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#case{
+    padding: 40px 65px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+#case h4,h5{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#line{
+    height: 2px;
+    width: 160px;
+    background-color: black;
+}
+
+#project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 90px;
+}
+
+.elem{
+    width: 50%;
+}
+
+.elem-img{
+    height: 720px;
+    width: 100%;
+    background-color: rgb(173, 209, 220 );
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+#img1{
+    background-image: url(https://plus.unsplash.com/premium_vector-1711987674097-605fc44a6baa?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#img2{
+    background-image: url(https://plus.unsplash.com/premium_vector-1725705036808-def0572d9f4a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dXh8ZW58MHx8MHx8fDA%3D);
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.bottom i{
+    padding: 14px 30px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.bottom h4{
+    font-size: 22 px;
+    color: #969696;
+    font-weight: 500;
+}
